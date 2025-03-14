@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles2.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="HeaderD">
+        <div class="icon">
+          <h2 class="logo">HotBeans</h2>
+        </div>
+        <nav class="nav_container">
+          <ul class="menubar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="job.html">Job Specification</a></li>
+            <li><a href="AboutUs.html">Our Team</a></li>
+            <li><a href="Apply.html">Apply Now</a></li>
+            <li><a href="Course.html">Courses</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--APPLY PAGE OF THE WEBSITE-->
+
+    <main class="applycontainer">
+      <h1>Join Our Team at HotBeans</h1>
+      <p>
+        We are looking for passionate individuals who love coding and
+        innovation. If you're eager to grow your skills and work in a dynamic
+        environment, apply today!
+      </p>
+
+      <h2>How to Apply</h2>
+      <p>
+        Fill in the form below with your details. Make sure to upload your
+        latest resume in PDF or DOCX format. Our team will review your
+        application and contact you.
+      </p>
+
+      <form class="applyform">
+        <div class="formgroup">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" required />
+        </div>
+
+        <div class="formgroup">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="formgroup">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+        <div class="formgroup">
+          <label for="resume">Upload Your Resume (PDF, DOCX)</label>
+          <input type="file" id="resume" name="resume" accept=".pdf, .docx" />
+        </div>
+
+        <button type="submit" class="SubmitButton">Submit Application</button>
+      </form>
+
+      <section class="questions">
+        <h2>Frequently Asked Questions</h2>
+
+        <h3>How long does the hiring process take?</h3>
+        <p>
+          We usually review applications within 5-7 business days. If you're
+          shortlisted, we'll contact you for an interview.
+        </p>
+
+        <h3>Will I get a response even if I'm not selected?</h3>
+        <p>
+          Yes! We send email updates to all applicants, regardless of the
+          outcome.
+        </p>
+
+        <h3>Do I need prior experience?</h3>
+        <p>
+          It depends on the position. Some roles require experience, while
+          others are open to beginners with strong motivation.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="foot-container">
+        <div class="foot-content">
+          <h3>Contact Us</h3>
+          <p>Email:<strong> HotBeans123@.com</strong></p>
+          <p>Phone: <strong>+44 7309 456789</strong></p>
+          <p>Location:</p>
+        </div>
+
+        <div class="foot-content">
+          <h3>Pages</h3>
+          <ul class="menubar2">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="job.html">Job Specification</a></li>
+            <li><a href="AboutUs.html">Our Team</a></li>
+            <li><a href="Apply.html">Apply Now</a></li>
+            <li><a href="OLC.html">Courses</a></li>
+          </ul>
+        </div>
+
+        <div class="foot-content">
+          <h3>Follow Us On...</h3>
+          <ul class="icons">
+            <li>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom">
+        <p>&copy; 2025 HotBeans Web . All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
